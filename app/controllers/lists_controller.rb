@@ -7,8 +7,6 @@ class ListsController < ApplicationController
     @list = List.find(params[:id])
   end
 
-  
-
   def new
   end
 
